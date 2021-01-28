@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="template1.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a href="#" class="navbar-brand">Navbar Logo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" >
+                        Courses</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Html</a>
+                        <a href="#" class="dropdown-item">Css</a>
+                        <a href="#" class="dropdown-item">JavaScript</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <form action="" class="form-inline ml-auto my-lg-0">
+                <input type="text" class="form-control mr-sm-2" placeholder="Search here">
+                <button class="btn btn-outline-warning my-2 my-sm-0">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <main role="main">
+
+        <!-- carousel -->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- icons -->
+                <ol class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0"  class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+
+                </ol>
+
+                <!-- slider -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="first-slide">
+                            <div class="container">
+                                <div class="carousel-caption text-left">
+                                    <h1>Mean Stack</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus ipsam cupiditate minima quo suscipit laudantium doloremque voluptate deleniti voluptatem vitae sed ullam, asperiores atque quod ut provident, eos nemo accusamus!</p>
+                                    <p><a href="#" class="btn btn-lg btn-danger">Enroll Now</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="second-slide">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <h1>Angular JS</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus ipsam cupiditate minima quo suscipit laudantium doloremque voluptate deleniti voluptatem vitae sed ullam, asperiores atque quod ut provident, eos nemo accusamus!</p>
+                                    <p><a href="#" class="btn btn-lg btn-warning">Enroll Now</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="third-slide">
+                            <div class="container">
+                                <div class="carousel-caption text-right">
+                                    <h1>React JS</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus ipsam cupiditate minima quo suscipit laudantium doloremque voluptate deleniti voluptatem vitae sed ullam, asperiores atque quod ut provident, eos nemo accusamus!</p>
+                                    <p><a href="#" class="btn btn-lg btn-success">Enroll Now</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="third-slide">
+                            <div class="container">
+                                <div class="carousel-caption text-justify">
+                                    <h1>JavaScript Goes Here</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus ipsam cupiditate minima quo suscipit laudantium doloremque voluptate deleniti voluptatem vitae sed ullam, asperiores atque quod ut provident, eos nemo accusamus!</p>
+                                    <p><a href="#" class="btn btn-lg btn-primary">Enroll Now</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- left and right control -->
+
+            </div>
+        <!-- carousel ends -->
+
+        <!-- cards -->
+
+        <div class="container courses">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-custom">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="rounded-circle">
+                        <h2 class="text-center">Mean Stack</h2>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic mollitia, incidunt impedit, porro numquam fugit, animi pariatur iusto nobis deleniti veniam iste magnam repudiandae eum recusandae et excepturi omnis tenetur?</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-custom">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="rounded-circle">
+                        <h2 class="text-center">Mean Stack</h2>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic mollitia, incidunt impedit, porro numquam fugit, animi pariatur iusto nobis deleniti veniam iste magnam repudiandae eum recusandae et excepturi omnis tenetur?</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-custom">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="rounded-circle">
+                        <h2 class="text-center">Mean Stack</h2>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic mollitia, incidunt impedit, porro numquam fugit, animi pariatur iusto nobis deleniti veniam iste magnam repudiandae eum recusandae et excepturi omnis tenetur?</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-custom">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="" class="rounded-circle">
+                        <h2 class="text-center">Mean Stack</h2>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic mollitia, incidunt impedit, porro numquam fugit, animi pariatur iusto nobis deleniti veniam iste magnam repudiandae eum recusandae et excepturi omnis tenetur?</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">View Details</a>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+
+
+        <!-- individual course info -->
+            <div class="container courseInfo">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 col-xs-12 order-md-2 courseInfo-body">
+                        <h2 class="text-info">Mean FullStack <span class="text-muted">Features</span> </h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis animi delectus reiciendis necessitatibus culpa praesentium numquam quam autem velit eveniet minus ullam, explicabo, provident commodi quas quo quasi doloremque. Omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel dignissimos perspiciatis eaque expedita, architecto ducimus dolorum nisi nesciunt facere cupiditate maxime quia quidem tenetur deserunt dicta non! Neque, quo?</p>
+
+                        <a href="#" class="btn btn-outline-warning">Read More..</a>
+                    </div>
+
+                    <div class="col-md-5 col-sm-12 col-xs-12 order-md-1">
+                        <img src="https://lh3.googleusercontent.com/proxy/AoSN38ewZD9uc57DfteH45ti8ev8gpY1UN4JvijREfU_kHTapMaM_nqy85hPqwxQTiG_PM8VD_aahdZeojZE8T4VzBBcpL4xQr44k0XOsi5U3NuoRKgOu-LBdWSW108WEI8MA95bDMEvLEt_jtBx" alt="first course" class="img-fluid mx-auto">
+                    </div>
+                </div>
+
+                <div class="clear-fix"></div>
+
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 col-xs-12 order-md-1 courseInfo-body">
+                        <h2 class="text-info">Mean FullStack <span class="text-muted">Features</span> </h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis animi delectus reiciendis necessitatibus culpa praesentium numquam quam autem velit eveniet minus ullam, explicabo, provident commodi quas quo quasi doloremque. Omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel dignissimos perspiciatis eaque expedita, architecto ducimus dolorum nisi nesciunt facere cupiditate maxime quia quidem tenetur deserunt dicta non! Neque, quo?</p>
+
+                        <a href="#" class="btn btn-outline-warning">Read More..</a>
+                    </div>
+
+                    <div class="col-md-5 col-sm-12 col-xs-12 order-md-2">
+                        <img src="https://lh3.googleusercontent.com/proxy/AoSN38ewZD9uc57DfteH45ti8ev8gpY1UN4JvijREfU_kHTapMaM_nqy85hPqwxQTiG_PM8VD_aahdZeojZE8T4VzBBcpL4xQr44k0XOsi5U3NuoRKgOu-LBdWSW108WEI8MA95bDMEvLEt_jtBx" alt="first course" class="img-fluid mx-auto">
+                    </div>
+                </div>
+
+                <div class="clear-fix"></div>
+
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 col-xs-12 order-md-2 courseInfo-body">
+                        <h2 class="text-info">Mean FullStack <span class="text-muted">Features</span> </h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis animi delectus reiciendis necessitatibus culpa praesentium numquam quam autem velit eveniet minus ullam, explicabo, provident commodi quas quo quasi doloremque. Omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel dignissimos perspiciatis eaque expedita, architecto ducimus dolorum nisi nesciunt facere cupiditate maxime quia quidem tenetur deserunt dicta non! Neque, quo?</p>
+
+                        <a href="#" class="btn btn-outline-warning">Read More..</a>
+                    </div>
+
+                    <div class="col-md-5 col-sm-12 col-xs-12 order-md-1">
+                        <img src="https://lh3.googleusercontent.com/proxy/AoSN38ewZD9uc57DfteH45ti8ev8gpY1UN4JvijREfU_kHTapMaM_nqy85hPqwxQTiG_PM8VD_aahdZeojZE8T4VzBBcpL4xQr44k0XOsi5U3NuoRKgOu-LBdWSW108WEI8MA95bDMEvLEt_jtBx" alt="first course" class="img-fluid mx-auto">
+                    </div>
+                </div>
+
+
+            </div>
+        <!-- container ends -->
+
+
+        <!-- footer  -->
+        <footer class="container">
+               <div class="row">
+                   <div class="col-md-12 footer-sec">
+                    <p class="float-right"> <a href="#" class="btn btn-link">Back to Top</a> </p>
+                    <p>All Rights Reserved, &copy; 2021. </p>
+                   </div>
+               </div>
+        </footer>
+
+    </main>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+</body>
+</html>
